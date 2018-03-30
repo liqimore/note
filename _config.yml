@@ -1,10 +1,10 @@
 # Site settings
-title: "Paper Jekyll Theme"
-description: > 
-  Write a description of your website here.
+title: "Code fog"
+description: >
+  求招准备,逐渐转移旧博客过来.
 
-author: Johnny Appleseed
-email: johnny@appleseed.com
+author: Ricky Li
+email: at20s@sina.com
 twitter_username:
 github_username:
 
@@ -17,10 +17,9 @@ disqus_id:
 # Build settings
 include: [_pages]
 markdown: kramdown
-permalink: /:year/:month/:title
+permalink: /:year/:title
 
 sass:
     style: compressed
 
 exclude: [vendor]
-
