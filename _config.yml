@@ -1,12 +1,12 @@
 # Site settings
 title: "Code fog"
 description: >
-  求招准备,逐渐转移旧博客过来.
+  秋招准备,逐渐转移旧博客过来.
 
 author: Ricky Li
 email: at20s@sina.com
-twitter_username:
-github_username:
+twitter_username: liqitry
+github_username: liqimore
 
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://tech.codefog.com" # the base hostname & protocol for your site
