@@ -1,14 +1,10 @@
 ---
 layout: default
 ---
-<article class="post">
-
-  <header class="post-header">
-    <h1 class="post-title">{{ page.title | escape }}</h1>
-  </header>
-
-  <div class="post-content">
+<div class="c-page">
+    {% include header.html %}
+    <div class="c-page__main">
     {{ content }}
-  </div>
-
-</article>
+    </div>
+    {% include footer.html %}
+</div>
