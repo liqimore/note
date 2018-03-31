@@ -1,7 +1,7 @@
 # Site settings
 title: "Code fog"
 description: >
-  秋招准备,逐渐转移旧博客过来.
+  秋招准备,转移旧博客.
 
 author: Ricky Li
 email: at20s@sina.com
@@ -12,7 +12,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://tech.codefog.com" # the base hostname & protocol for your site
 
 google_analytics_id: UA-1111111111-1
-disqus_id:
+disqus_id: qilijackrabbit
 
 # Build settings
 include: [_pages]
