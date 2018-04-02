@@ -1,10 +1,10 @@
 ---
 layout: post
 title: "Basic knowledge of collection framework - 1"
-description: "How to setup and use the blog"
+description: "Hierarchy, Difference about List,Queue,Set,Map interface and Collection interface method"
 date: 2018-04-02
-tags: jekyll
-categories: jekyll
+tags: java, collection framework
+categories: java
 comments: true
 ---
 
