@@ -1,9 +1,9 @@
 ---
 layout: post
-title: "API设计原则 – QT官网的设计实践总结"
+title: "API设计原则 – QT官网的设计实践总结122323232"
 description: "原文链接：API Design Principles – Qt Wiki
 基于Gary的影响力上 Gary Gao 的译文稿：C++的API设计指导"
-date: 2018-04-08
+date: 2018-05-01
 tags: java, collection framework, ArrayList, Array
 categories: java
 comments: true
@@ -176,10 +176,10 @@ Hsv getHsv() const;
 void setAge(int age);
 void setCategory(QChar cat);
 void setName(QLatin1String name);
- 
+
 // const-ref is much faster than running copy-constructor and destructor
 void setAlarm(const QSharedPointer<Alarm> &alarm);
- 
+
 // QDate, QTime, QPoint, QPointF, QSize, QSizeF, QRect
 // are good examples of other classes you should pass by value.
 【译注】：这是传引用和传值的差别了，因为传值会有对像拷贝，传引用则不会。所以，如果对像的构造比较重的话（换句话说，就是对像里的成员变量需要的内存比较大），这就会影响很多性能。所以，为了提高性能，最好是传引用。但是如果传入引用的话，会导致这个对象可能会被改变。所以传入const reference。
@@ -263,7 +263,7 @@ public:
     CopyClass &operator =(const CopyClass &other);
     bool operator ==(const CopyClass &other) const;
     bool operator !=(const CopyClass &other) const;
- 
+
     virtual void setValue(int v);
 };
 如果继承CopyClass这个类，预料之外的事就已经在代码时酝酿了。一般情况下，如果没有虚成员函数和虚析构函数，就不能创建出可以多态的子类。然而，如果存在虚成员函数和虚析构函数，这突然变成了要有子类去继承的理由，而且开始变得复杂了。起初认为只要简单声明上虚操作符重载函数（virtual operators）。 但其实是走上了一条混乱和毁灭之路（破坏了代码的可读性）。看看下面的这个例子：
@@ -365,30 +365,30 @@ struct Foo {
     void setValue(int v) { value = v; }
     int value;
 };
- 
+
 Foo foo() {
     return Foo();
 }
- 
+
 const Foo cfoo() {
     return Foo();
 }
- 
+
 int main() {
     // The following does compile, foo() is non-const R-value which
     // can't be assigned to (this generally requires an L-value)
     // but member access leads to a L-value:
     foo().value = 1; // Ok, but temporary will be thrown away at the end of the full-expression.
- 
+
     // The following does compile, foo() is non-const R-value which
     // can't be assigned to, but calling (even non-const) member
     // function is fine:
     foo().setValue(1); // Ok, but temporary will be thrown away at the end of the full-expression.
- 
+
     // The following does _not_compile, foo() is ''const'' R-value
     // with const member which member access can't be assigned to:
     cfoo().value = 1; // Not ok.
- 
+
     // The following does _not_compile, foo() is ''const'' R-value,
     // one cannot call non-const member functions:
     cfoo().setValue(1); // Not ok
@@ -420,7 +420,7 @@ QVariant CustomWidget::inputMethodQuery(Qt::InputMethodQuery query) const {
 6
 QGraphicsScene scene;
 // … populate scene
- 
+
 foreach (const QGraphicsItem *item, scene.items()) {
     item->setPos(qrand() % 500, qrand() % 500); // doesn't compile! item is a const pointer
 }
@@ -451,7 +451,7 @@ widget->move(10, 10); // not const
 5
 // QAbstractItemDelegate::paint is const
 void QAbstractItemDelegate::paint(QPainter **painter, const QStyleOptionViewItem &option, const QModelIndex &index) const
- 
+
 // QGraphicsItem::paint is not const
 void QGraphicsItem::paint(QPainter *painter, const QStyleOptionGraphicsItem option, QWidget *widget)
 const关键字并不能按你期望的样子起作用。应该考虑将其移除而不是去重载const/非const函数。
@@ -508,7 +508,7 @@ namespace Qt
     enum CaseSensitivity { Insensitive, Sensitive };
     ...
 };
- 
+
 tabWidget->setCornerWidget(widget, Qt::TopLeft);
 str.indexOf("$(QTDIR)", Qt::Insensitive);
 在最后一行，Insensitive是什么意思？命名枚举类型的一个准则是在枚举值中至少重复此枚举类型名中的一个元素：
@@ -528,7 +528,7 @@ namespace Qt
     enum CaseSensitivity { CaseInsensitive, CaseSensitive };
     ...
 };
- 
+
 tabWidget->setCornerWidget(widget, Qt::TopLeftCorner);
 str.indexOf("$(QTDIR)", Qt::CaseInsensitive);
 当对枚举值进行或运算并作为某种标志（flag）时，传统的做法是把或运算的结果保存在int型的值中，但这不是类型安全的。Qt 4提供了一个模板类QFlags，其中的T是枚举类型。为了方便使用，Qt用typedef重新定义了QFlag类型，所以可以用Qt::Alignment代替QFlags。
@@ -670,23 +670,23 @@ class QProgressBar : public QWidget
 public:
     int totalSteps() const;
     int progress() const;
- 
+
     const QString &progressString() const;
     bool percentageVisible() const;
     void setPercentageVisible(bool);
- 
+
     void setCenterIndicator(bool on);
     bool centerIndicator() const;
- 
+
     void setIndicatorFollowsStyle(bool);
     bool indicatorFollowsStyle() const;
- 
+
 public slots:
     void reset();
     virtual void setTotalSteps(int totalSteps);
     virtual void setProgress(int progress);
     void setProgress(int progress, int totalSteps);
- 
+
 protected:
     virtual bool setIndicator(QString &progressStr,
                               int progress,
@@ -750,17 +750,17 @@ public:
     int maximum() const;
     void setRange(int minimum, int maximum);
     int value() const;
- 
+
     virtual QString text() const;
     void setTextVisible(bool visible);
     bool isTextVisible() const;
     Qt::Alignment alignment() const;
     void setAlignment(Qt::Alignment alignment);
- 
+
 public slots:
     void reset();
     void setValue(int value);
- 
+
 signals:
     void valueChanged(int value);
     ...
@@ -800,4 +800,3 @@ while ((child = it.current()) != 0) {
 
 8.5 QImageSink
 Qt 3有一整套类用来把完成增量加载的图片传递给一个动画 —— QImageSource/Sink/QASyncIO/QASyncImageIO。由于这些类之前只是用于启用动画的QLabel，完全过度设计了（overkill）。
-
