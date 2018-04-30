@@ -1,11 +1,29 @@
 ---
 layout: post
+title: "API设计原则 – QT官网的设计实践总结"
+description: "原文链接：API Design Principles – Qt Wiki
+基于Gary的影响力上 Gary Gao 的译文稿：C++的API设计指导"
+date: 2018-05-01
+tags: java, collection framework, ArrayList, Array
+categories: java
+comments: true
+---
+
+
+
+
+
+
+
+
+
+layout: post
 title: "近期安排+京东百度面经"
 description: "赶上了春招的尾巴,所以尝试了一把,非常幸运的拿到了京东的offer."
 date: 2018-05-01
 tags: 近况,春招,面试,plans
 comments: true
----
+
 
 ## 最近在忙什么
 在3月底的时候,在牛客网看到了春招马上就结束了,之前的计划是春招不参加,抓紧准备秋招.但是看到能投
