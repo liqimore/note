@@ -3,7 +3,7 @@ layout: post
 title: "数字,字符串和日期类的基本操作"
 description: "Number,Date类的常见使用,字符串的简单操作和常用方法复习,做个记录."
 date: 2018-05-07
-tags: java, 春招
+tags: java, 秋招准备
 comments: true
 ---
 

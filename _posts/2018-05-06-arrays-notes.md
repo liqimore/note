@@ -3,7 +3,7 @@ layout: post
 title: "Arrays工具类知识点笔记"
 description: "自己对Arrays类不熟悉的地方."
 date: 2018-05-06
-tags: java, 春招
+tags: java, 秋招准备
 comments: true
 ---
 
