@@ -1,6 +1,12 @@
+---
+layout: content
+title: Learn&Teach
+permalink: /teach/
+---
+
 ## 1.百度网盘无需会员不限速下载工具
 https://static.timelovelife.com/share/PanDownload_v1.5.4.zip
-## 2.何林鸿近期讲课计划,时间待定,在最近
+## 2.何林鸿近期讲课计划,时间待定,在最近(重点)
 ![20180522152700405033055.png](https://static.timelovelife.com/20180522152700405033055.png)
 ## 2.spring boot快速入门
 http://blog.didispace.com/Spring-Boot%E5%9F%BA%E7%A1%80%E6%95%99%E7%A8%8B/
@@ -17,7 +23,7 @@ http://blog.didispace.com/Spring-Boot%E5%9F%BA%E7%A1%80%E6%95%99%E7%A8%8B/
 咱们现在的状态都是初学者,了解到的东西也是非常片面的,真心希望我能和大家一起,坚持学完一套课程.
 相信到时候,咱们都会把自己提升一个档次,如果之后有机会,咱们可以继续做一些有意思的事情***.      
 每天学习时间在6小时以上,你会牺牲掉自己看电影,玩游戏,甚至吃饭的时间,我认为你如果想得到你所想要的,
-首先自己需要付出.    
+首先自己需要付出.最后,**希望大家认真对待**,不要浪费自己的时间.       
 
 ### 下面是每天课程链接,1080p在线
 [传智播客 -- 淘淘商城 -- 第一天](https://www.bilibili.com/video/av14344869)  
