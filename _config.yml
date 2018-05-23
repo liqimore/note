@@ -11,6 +11,7 @@ plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
 
+include: [_pages]
 markdown: kramdown
 kramdown:
   auto_id_prefix: 'heading-'
