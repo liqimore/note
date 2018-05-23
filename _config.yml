@@ -25,8 +25,8 @@ sass:
 url: https://tech.codefog.com # the base hostname & protocol for your site, e.g. http://example.com
 baseurl:  # the subpath of your site, e.g. /blog
 title: Code Fog
-description: "A gem-based responsive simple texture styled Jekyll theme."
-keywords: 'jekyll,theme,gem-based,blog'
+description: "The more you know, the more you know you don't know."
+keywords: ''
 author:
   name:
   job_title:
@@ -36,7 +36,7 @@ author:
     - name: facebook
       url:
     - name: github
-      url: https://github.com/yizeng/jekyll-theme-simple-texture
+      url: 
     - name: instagram
       url:
     - name: linkedin
@@ -57,7 +57,7 @@ blog:
   footer_content: A gem-based responsive simple texture styled <a href="http://jekyllrb.com/">Jekyll</a> theme.
 
 disqus:
-  shortname: # e.g. yizeng
+  shortname: codefog # e.g. yizeng
   public_key: # e.g. ULZ0b9TFefCUJHKQd4JCKv2v3u27YoG7YG8zXPewkWrT333Z0Se9YnxLzoV6VM8W
 google_analytics: # e.g. 'UA-42456515-5'
 addthis_public_id: # AddThis sharing plugin. See http://www.addthis.com/. E.g. ra-53329e27694534j5 
