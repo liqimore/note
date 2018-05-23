@@ -63,6 +63,6 @@ addthis_public_id: # AddThis sharing plugin. See http://www.addthis.com/. E.g. r
 
 paths:
   home: /
-  blog: /blog/
-  categories: /blog/categories/
-  tags: /blog/tags/
+  blog: /
+  categories: /categories/
+  tags: /tags/
