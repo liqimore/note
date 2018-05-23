@@ -22,7 +22,7 @@ sass:
 
 # Site Data
 url: https://tech.codefog.com # the base hostname & protocol for your site, e.g. http://example.com
-baseurl: "/" # the subpath of your site, e.g. /blog
+baseurl:  # the subpath of your site, e.g. /blog
 title: Code Fog
 description: "A gem-based responsive simple texture styled Jekyll theme."
 keywords: 'jekyll,theme,gem-based,blog'
