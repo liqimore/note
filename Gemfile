@@ -1,9 +1,16 @@
 source "https://rubygems.org"
+gemspec
 
-gem "jekyll", "3.4.3"
-gem "html-proofer"
-gem "rb-fsevent", "0.9.8"
+# If you've just forked the repo,
+# please remove the content above and uncomment the following before bundling.
+#
+# source "https://rubygems.org"
 
-group :jekyll_plugins do
-      gem 'jekyll-livereload'
-end
+# gem 'jekyll', '= 3.7.2' # locked in to be consistent GitHub Pages.
+
+# group :jekyll_plugins do
+#   gem 'jekyll-feed'
+#   gem 'jekyll-redirect-from'
+#   gem 'jekyll-seo-tag'
+#   gem 'jekyll-sitemap'
+# end
