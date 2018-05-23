@@ -1,5 +1,5 @@
 ---
-layout: content
+layout: page
 title: Learn&Teach
 permalink: /teach/
 ---
