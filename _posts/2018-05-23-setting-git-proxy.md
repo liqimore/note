@@ -3,6 +3,7 @@ layout: post
 title: "设置git走ssr(socks5)代理"
 description: "set git using ssr proxy"
 date: 2018-05-23
+last_updated: May 24, 2018
 categories: [notes]
 tags: [gist] 
 comments: true
