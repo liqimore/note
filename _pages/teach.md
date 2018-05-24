@@ -4,7 +4,7 @@ title: Learn&Teach
 permalink: /teach/
 ---
 
-具体信息下次开会详细说.   
+具体信息今天开会详细说.   
 
 ## 1.百度网盘无需会员不限速下载工具
 https://static.timelovelife.com/share/PanDownload_v1.5.4.zip
@@ -27,9 +27,9 @@ http://blog.didispace.com/Spring-Boot%E5%9F%BA%E7%A1%80%E6%95%99%E7%A8%8B/
 相信到时候,咱们都会把自己提升一个档次,如果之后有机会,咱们可以继续做一些有意思的事情***.      
 
 每天学习时间在6小时以上,你会牺牲掉自己看电影,玩游戏,甚至吃饭的时间,我认为你如果想得到你所想要的,
-首先自己需要付出.最后,**希望大家认真对待**,不要浪费自己的时间.       
+首先自己需要付出.最后,<mark>希望大家认真对待</mark>,不要浪费自己的时间.       
 
-### 下面是每天课程链接,1080p在线(老版课程,建议下载新版)
+### 下面是每天课程链接,1080p在线(老版课程,<mark>建议下载新版</mark>)
 [传智播客 -- 淘淘商城 -- 第一天](https://www.bilibili.com/video/av14344869)  
 [传智播客 -- 淘淘商城 -- 第二天](https://www.bilibili.com/video/av14359661)  
 [传智播客 -- 淘淘商城 -- 第三天](https://www.bilibili.com/video/av14382951)  
@@ -50,7 +50,7 @@ http://blog.didispace.com/Spring-Boot%E5%9F%BA%E7%A1%80%E6%95%99%E7%A8%8B/
 相关资料我会稍后放出.   
 
 ## 遇到技术问题怎么办?
-首先,请 **学会使用搜索引擎**,如果确定找不到答案,再提问.   
+首先,请<mark>学会使用搜索引擎</mark>,如果确定找不到答案,再提问.   
 其次,解决问题之后,尽量把问题的本质了解到.   
 最后,做笔记,写博客.   
 
@@ -69,4 +69,4 @@ java基础:
 链接: https://pan.baidu.com/s/1VKI9UFtvCDRzD8h6g3hzcQ 密码: rui4    
 
 update:  
-2018.05.23
+2018.05.24
