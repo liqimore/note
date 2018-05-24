@@ -3,7 +3,7 @@ layout: post
 title: "java异常研究,详解"
 description: "深入了解java的异常机制."
 date: 2018-05-07
-tags: java, 秋招准备
+tags: [java, 秋招准备]
 comments: true
 ---
 

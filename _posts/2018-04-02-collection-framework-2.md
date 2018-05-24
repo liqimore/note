@@ -3,7 +3,7 @@ layout: post
 title: "Basic knowledge of collection framework - 2"
 description: "Usage & Advantage of ArrayList"
 date: 2018-04-02
-tags: java, collection framework, ArrayList, Array
+tags: [java, collection framework, ArrayList, Array]
 categories: java
 comments: true
 ---

@@ -3,7 +3,7 @@ layout: post
 title: "java中的位运算UML简单学习"
 description: "复习一下java中的位运算和逻辑运算符,学会看UML类图."
 date: 2018-05-06
-tags: java, 秋招准备
+tags: [java, 秋招准备]
 comments: true
 ---
 

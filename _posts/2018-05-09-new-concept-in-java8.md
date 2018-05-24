@@ -3,7 +3,7 @@ layout: post
 title: "java8中的Lambda表达式和Stream"
 description: "了解java8中新添加的Lambda表达式和Stream概念."
 date: 2018-05-09
-tags: java, 秋招准备
+tags: [java, 秋招准备]
 comments: true
 ---
 

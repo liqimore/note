@@ -3,7 +3,7 @@ layout: post
 title: "java中的I/O操作详解和log4j的基本使用"
 description: "详细学习java的I/O操作,和练习log4j的使用."
 date: 2018-05-08
-tags: java, 秋招准备
+tags: [java, 秋招准备]
 comments: true
 ---
 

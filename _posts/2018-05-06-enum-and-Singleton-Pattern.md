@@ -3,7 +3,7 @@ layout: post
 title: "枚举和JAVA的单例模式"
 description: "枚举例子和对java单例模式的理解."
 date: 2018-05-06
-tags: java, 秋招准备
+tags: [java, 秋招准备]
 comments: true
 ---
 

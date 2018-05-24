@@ -4,7 +4,7 @@ title: "IBM的java系列教程笔记"
 description: "在复习过程中,发现了IBM的免费教程,非常棒,比很多收费的教程好多了,在此把不熟悉的
 知识记录一下."
 date: 2018-05-17
-tags: java, 秋招准备
+tags: [java, 秋招准备]
 comments: true
 ---
 

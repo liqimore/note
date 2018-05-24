@@ -3,7 +3,7 @@ layout: post
 title: "java中的I/O操作详解和log4j的基本使用 - 2(Log4j)"
 description: "接上一篇文章,篇幅太长,分成两篇.中英文混合."
 date: 2018-05-08
-tags: java, 秋招准备
+tags: [java, 秋招准备]
 comments: true
 ---
 
