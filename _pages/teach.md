@@ -29,7 +29,7 @@ http://blog.didispace.com/Spring-Boot%E5%9F%BA%E7%A1%80%E6%95%99%E7%A8%8B/
 每天学习时间在6小时以上,你会牺牲掉自己看电影,玩游戏,甚至吃饭的时间,我认为你如果想得到你所想要的,
 首先自己需要付出.最后,**希望大家认真对待**,不要浪费自己的时间.       
 
-### 下面是每天课程链接,1080p在线
+### 下面是每天课程链接,1080p在线(老版课程,建议下载新版)
 [传智播客 -- 淘淘商城 -- 第一天](https://www.bilibili.com/video/av14344869)  
 [传智播客 -- 淘淘商城 -- 第二天](https://www.bilibili.com/video/av14359661)  
 [传智播客 -- 淘淘商城 -- 第三天](https://www.bilibili.com/video/av14382951)  
@@ -42,6 +42,10 @@ http://blog.didispace.com/Spring-Boot%E5%9F%BA%E7%A1%80%E6%95%99%E7%A8%8B/
 [传智播客 -- 淘淘商城 -- 第十天](https://www.bilibili.com/video/av14639200)  
 [传智播客 -- 淘淘商城 -- 第十一天](https://www.bilibili.com/video/av14639371)  
 [传智播客 -- 淘淘商城 -- 最后一天!!!(12)](https://www.bilibili.com/video/av14639610)    
+
+## 这是新版的课程下载地址,包含源码,视屏,课件,资料(建议使用1中的工具下载) 
+链接: https://pan.baidu.com/s/1HEymeJ7eqkkaBL6pgTJR5A 密码: 4j4g  
+注意: 可能会出现转存文件超过3000,需要办会员,目前正在寻找办法.   
 
 相关资料我会稍后放出.   
 
