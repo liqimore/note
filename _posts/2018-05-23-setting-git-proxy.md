@@ -8,6 +8,7 @@ tags: [gist]
 comments: true
 ---
 
+* Kramdown table of contents
 {:toc .toc}
 
 ## Setting proxy
