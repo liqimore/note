@@ -2,7 +2,7 @@
 layout: post
 title: "设置git走ssr(socks5)代理"
 description: "set git using ssr proxy"
-date: 2018-05-24
+date: 2018-05-23
 tags: gist 
 comments: true
 ---
