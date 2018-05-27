@@ -26,17 +26,17 @@ url: https://tech.codefog.com # the base hostname & protocol for your site, e.g.
 baseurl:  # the subpath of your site, e.g. /blog
 title: Code Fog
 description: "The more you know, the more you know you don't know."
-keywords: ''
+keywords: 'code fog, codefog, ricky'
 author:
   name: Ricky
   job_title:
   location:
-  email:
+  email: at20s@sina.com
   social_links:
     - name: facebook
       url:
     - name: github
-      url: 
+      url: https://github.com/liqimore
     - name: instagram
       url:
     - name: linkedin
@@ -54,7 +54,7 @@ home:
 blog:
   cc_license: http://creativecommons.org/licenses/by-sa/4.0/ # A link to CC License of your choice.
   cc_license_image: /assets/images/theme/cc-by-sa.png # An image of your CC License. 
-  footer_content: A gem-based responsive simple texture styled <a href="http://jekyllrb.com/">Jekyll</a> theme.
+  footer_content: "The more you know, the more you know you don't know."
 
 disqus:
   shortname: codefog # e.g. yizeng
