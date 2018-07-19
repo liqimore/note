@@ -20,7 +20,6 @@ core java);
 6. java常使用的工具(Maven,Gradle,Idea Debug,Tomcat);  
 7. 脚本语言的基本使用(Python);   
 
-**时间规划:** 3.5个月,<mark>2018.04.15-2018.07.31</mark>  
 练习工具: IDEA JDK1.8 MacOS  
 
 > mark的关键词代表<mark>重点对象</mark>  
