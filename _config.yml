@@ -24,7 +24,7 @@ sass:
 # Site Data
 url: https://tech.codefog.com # the base hostname & protocol for your site, e.g. http://example.com
 baseurl:  # the subpath of your site, e.g. /blog
-title: Code Fog
+title: codefog
 description: "The more you know, the more you know you don't know."
 keywords: 'code fog, codefog, ricky'
 author:
