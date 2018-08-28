@@ -33,8 +33,8 @@ Hint: Some lines were ellipsized, use -l to show in full.
 随后在google上寻找一番无果,终于在配置文件中看到如下:  
 ```
 # Unix user account that runs the Jenkins daemon
-# Be careful <mark>when you change this, as you need to update
-# permissions of $JENKINS_HOME and /var/log/jenkins.</mark>
+# Be careful when you change this, as you need to update
+# permissions of $JENKINS_HOME and /var/log/jenkins.
 #
 JENKINS_USER="jenkins"
 ```
