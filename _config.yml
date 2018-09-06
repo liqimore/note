@@ -12,6 +12,7 @@ plugins:
   - jekyll-sitemap
 
 include: [_pages]
+include: [_redirects]
 markdown: kramdown
 kramdown:
   auto_id_prefix: 'heading-'
