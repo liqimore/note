@@ -1,0 +1,5 @@
+# Redirect domain aliases to primary domain
+https://blog.codefog.com/* https://tech.codefog.com/:splat 301!
+
+# Optional: Redirect default Netlify subdomain to primary domain
+https://technote.netlify.com/* https://tech.codefog.com/:splat 301!
