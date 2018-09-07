@@ -29,8 +29,7 @@
 //             $(this).remove();
 //         });
         
-        //auto load disqus
-        $('.comments .show-hidden').(function () {
+        $('.comments .show-hidden').on('load', function () {
             $.ajaxSetup({cache: true});
             $.getScript('//' + disqusShortname + '.disqus.com/embed.js');
             $.ajaxSetup({cache: false});
