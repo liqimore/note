@@ -22,19 +22,13 @@
             }
         });
 
-//         $('.comments .show-hidden').on('click', function () {
-//             $.ajaxSetup({cache: true});
-//             $.getScript('//' + disqusShortname + '.disqus.com/embed.js');
-//             $.ajaxSetup({cache: false});
-//             $(this).remove();
-//         });
-        
-        $('.comments .show-hidden').on('load', function () {
+        $('.comments .show-hidden').on('click', function () {
             $.ajaxSetup({cache: true});
             $.getScript('//' + disqusShortname + '.disqus.com/embed.js');
             $.ajaxSetup({cache: false});
             $(this).remove();
         });
+        
 
         if (/\#comments/.test(location.hash)) {
             $('.comments .show-hidden').trigger('click');
