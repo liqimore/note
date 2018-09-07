@@ -22,7 +22,15 @@
             }
         });
 
-        $('.comments .show-hidden').on('click', function () {
+//         $('.comments .show-hidden').on('click', function () {
+//             $.ajaxSetup({cache: true});
+//             $.getScript('//' + disqusShortname + '.disqus.com/embed.js');
+//             $.ajaxSetup({cache: false});
+//             $(this).remove();
+//         });
+        
+        //auto load disqus
+        $('.comments .show-hidden').(function () {
             $.ajaxSetup({cache: true});
             $.getScript('//' + disqusShortname + '.disqus.com/embed.js');
             $.ajaxSetup({cache: false});
