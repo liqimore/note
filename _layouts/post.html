@@ -21,7 +21,7 @@ layout: blog
                             by
                             <a class="author" href="/" rel="author" title="{{ site.data.i18n[site.lang].show_author }}">
                                 <span itemprop="author" itemscope itemtype="http://schema.org/Person">
-                                    <span itemprop="name">{% if page.author == null %}{{ site.author.name }}{% else %}{{ page.author }}{% endif %}, Viewer: <i class="leancloud-visitors-count">1000000</i></span>
+                                    <span itemprop="name">{% if page.author == null %}{{ site.author.name }}{% else %}{{ page.author }}{% endif %}</span>
                                 </span>
                             </a>
                             <!-- viewer counter -->
@@ -30,7 +30,7 @@ layout: blog
                                 var myPath = window.location.pathname;
                                 document.write("<span id='" + myPath + "' class='leancloud-visitors'></span>")
                             </script>
-                            
+                            , Viewer: <i class="leancloud-visitors-count">1000000</i>
 
                             {% if site.blog.cc_license and site.blog.cc_license_image %}
                                 <a class="license-icon" rel="license" href="{{ site.blog.cc_license }}" target="_blank" title="{{ site.data.i18n[site.lang].show_license }}">
@@ -53,19 +53,6 @@ layout: blog
                     </div>
                     <div itemprop="articleBody">
                         {{ content }}
-                        
-                        
-                        <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-<ins class="adsbygoogle"
-     style="display:block; text-align:center;"
-     data-ad-layout="in-article"
-     data-ad-format="fluid"
-     data-ad-client="ca-pub-3752067843889894"
-     data-ad-slot="5323134519"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-                        
                     </div>
                 </div>
             </div>
