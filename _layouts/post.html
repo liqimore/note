@@ -28,9 +28,8 @@ layout: blog
                             <!-- id 将作为查询条件 -->
                             <script>
                                 var myPath = window.location.pathname;
-                                document.write("<span id='" + myPath + "' class='leancloud-visitors'></span>")
+                                document.write("<span id='" + myPath + "' class='leancloud-visitors'>, Viewer: <i class="leancloud-visitors-count">1000000</i></span>")
                             </script>
-                            , Viewer: <i class="leancloud-visitors-count">1000000</i>
 
                             {% if site.blog.cc_license and site.blog.cc_license_image %}
                                 <a class="license-icon" rel="license" href="{{ site.blog.cc_license }}" target="_blank" title="{{ site.data.i18n[site.lang].show_license }}">
