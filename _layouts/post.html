@@ -21,9 +21,17 @@ layout: blog
                             by
                             <a class="author" href="/" rel="author" title="{{ site.data.i18n[site.lang].show_author }}">
                                 <span itemprop="author" itemscope itemtype="http://schema.org/Person">
-                                    <span itemprop="name">{% if page.author == null %}{{ site.author.name }}{% else %}{{ page.author }}{% endif %}</span>
+                                    <span itemprop="name">{% if page.author == null %}{{ site.author.name }}{% else %}{{ page.author }}{% endif %}, Viewer: <i class="leancloud-visitors-count">1000000</i></span>
                                 </span>
                             </a>
+                            <!-- viewer counter -->
+                            <!-- id 将作为查询条件 -->
+                            <script>
+                                var myPath = window.location.pathname;
+                                document.write("<span id='" + myPath + "' class='leancloud-visitors'></span>")
+                            </script>
+                            
+
                             {% if site.blog.cc_license and site.blog.cc_license_image %}
                                 <a class="license-icon" rel="license" href="{{ site.blog.cc_license }}" target="_blank" title="{{ site.data.i18n[site.lang].show_license }}">
                                     <img alt="Creative Commons Licence" style="border-width:0" src="{{ site.blog.cc_license_image | relative_url }}"  height="16" width="80"/>
