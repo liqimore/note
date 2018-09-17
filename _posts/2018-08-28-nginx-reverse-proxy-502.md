@@ -3,7 +3,7 @@ layout: post
 title: "解决Nginx反代80端口出现502错误"
 description: "nginx reverse proxy occours 502."
 date: 2018-08-28
-tags: [jenkins, kele, 环境准备]
+tags: [jenkins, kale, 环境准备]
 categories: [java, kale]
 comments: true
 ---

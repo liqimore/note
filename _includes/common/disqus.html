@@ -1,4 +1,4 @@
-<script>
+<!-- <script>
     $(document).ready(function () {
         var disqusPublicKey = "{{ site.disqus.public_key }}";
         var disqusShortname = "{{ site.disqus.shortname }}";
@@ -41,3 +41,13 @@
         }
     });
 </script>
+ -->
+
+ <div id="vcomments"></div>
+    <script>
+        new Valine({
+            el: '#vcomments',
+            appId: 'r1IBpQSjEtLFpk74nqd8VY52-gzGzoHsz',
+            appKey: 'pKx1crhC38RofYuQtDU367g6'
+        })
+    </script>

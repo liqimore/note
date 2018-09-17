@@ -3,7 +3,7 @@ layout: post
 title: "解决Jenkins安装完成登陆后显示空白页面"
 description: "Jenkins after login show blank page."
 date: 2018-08-28
-tags: [jenkins, kele, 环境准备]
+tags: [jenkins, kale, 环境准备]
 categories: [java, kale]
 comments: true
 ---

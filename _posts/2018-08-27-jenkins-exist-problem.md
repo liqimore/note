@@ -3,7 +3,7 @@ layout: post
 title: "Centos7启动Jenkins服务状态Active: active (exited)的问题解决"
 description: "Jenkins服务Active: active (exited)"
 date: 2018-08-27
-tags: [jenkins, kele, 环境准备]
+tags: [jenkins, kale, 环境准备]
 categories: [java, kale]
 comments: true
 ---
