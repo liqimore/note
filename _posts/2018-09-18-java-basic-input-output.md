@@ -12,7 +12,7 @@ comments: true
 
 ## 输入一行数字
 ```java
-		Scanner sc = new Scanner(System.in);
+Scanner sc = new Scanner(System.in);
 
         System.out.println("读取一行数字：");
         String oneLine = sc.nextLine();
@@ -26,7 +26,7 @@ comments: true
 ## 输入n行数字，行数确定
 如果需要获得每行数字的值，用String的split方法分割为`char[]`后，再使用`Integer.valueOf()`转换成int即可，同上  
 ```java
-		System.out.println("读取n行数字：");
+System.out.println("读取n行数字：");
         int lines = 3;
         String[] mutiLines = new String[3];
         int i = 0;
@@ -41,7 +41,7 @@ comments: true
 ## 输入多行数字，未知行数
 没有对一行多数字做处理，处理方法和上述但行输入相同。  
 ```java
-		System.out.println("输入多行数字：");
+System.out.println("输入多行数字：");
         List<String> list = new ArrayList<>();
 
         String input = "";
