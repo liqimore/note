@@ -24,7 +24,13 @@ layout: blog
                                     <span itemprop="name">{% if page.author == null %}{{ site.author.name }}{% else %}{{ page.author }}{% endif %}</span>
                                 </span>
                             </a>
-                            
+                             Viewer: 
+                            <script>
+                                var path = window.location.pathname;
+                                var html = "<span id='" + path +"'>  class='leancloud-visitors' ><i class='leancloud-visitors-count'>1000000</i></span>";
+                                document.write(html);
+                            </script>
+
                             {% if site.blog.cc_license and site.blog.cc_license_image %}
                                 <a class="license-icon" rel="license" href="{{ site.blog.cc_license }}" target="_blank" title="{{ site.data.i18n[site.lang].show_license }}">
                                     <img alt="Creative Commons Licence" style="border-width:0" src="{{ site.blog.cc_license_image | relative_url }}"  height="16" width="80"/>
