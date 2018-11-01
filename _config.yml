@@ -60,7 +60,7 @@ blog:
 disqus:
   shortname: codefog # e.g. yizeng
   public_key: # e.g. ULZ0b9TFefCUJHKQd4JCKv2v3u27YoG7YG8zXPewkWrT333Z0Se9YnxLzoV6VM8W
-google_analytics: # e.g. 'UA-42456515-5'
+google_analytics: UA-128499116-1 # e.g. 'UA-42456515-5'
 addthis_public_id: # AddThis sharing plugin. See http://www.addthis.com/. E.g. ra-53329e27694534j5 
 
 paths:
