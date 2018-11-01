@@ -252,5 +252,7 @@ public class Solution4 {
 ```
 
 ## 其他资料算法
-参考： https://www.cnblogs.com/tgycoder/p/5241157.html  
+参考：   
+https://www.cnblogs.com/tgycoder/p/5241157.html  
+http://blog.jobbole.com/99205/   
 
