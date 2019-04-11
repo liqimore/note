@@ -7,9 +7,9 @@ permalink: /teach/
 具体信息今天开会详细说.   
 
 ## 1.百度网盘无需会员不限速下载工具
-https://static.timelovelife.com/qiniu/share/PanDownload_v1.5.4.zip
+https://static.codefog.com/qiniu/share/PanDownload_v1.5.4.zip
 ## 2.何林鸿近期讲课计划,时间待定,在最近(重点)
-![20180522152700405033055.png](https://static.timelovelife.com/qiniu/20180522152700405033055.png)
+![20180522152700405033055.png](https://static.codefog.com/qiniu/20180522152700405033055.png)
 ## 2.spring boot快速入门
 http://blog.didispace.com/Spring-Boot%E5%9F%BA%E7%A1%80%E6%95%99%E7%A8%8B/
 ## 3.IDEA开发工具教程

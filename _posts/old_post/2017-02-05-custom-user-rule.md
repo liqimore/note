@@ -17,11 +17,11 @@ ss是使用文本文档来保存代理规则的,GFWlist也是如此,但是总有
 
 首先,打开你的ss根目录,或者邮件ss客户端的小飞机,**PAC->编辑GFWList用户规则**,之后打开默认选中的那个TXT文档.
 
-![1](https://static.timelovelife.com/qiniu/old/2017/02/1.jpg)
+![1](https://static.codefog.com/qiniu/old/2017/02/1.jpg)
 
 之后在文件中新添加一行,在你需要代理的域名前加 "||"两个竖线,如图:
 
-![2](https://static.timelovelife.com/qiniu/old/2017/02/2.jpg)
+![2](https://static.codefog.com/qiniu/old/2017/02/2.jpg)
 
 这样就简单的添加了一个新的自定义规则,除了这种超级简单的格式之外,还有更多定制的格式,可以实现更加详细的代理划分,比如:
 

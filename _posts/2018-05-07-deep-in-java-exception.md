@@ -9,7 +9,7 @@ comments: true
 
 ## 概述
 在Java中，所有的事件都能由类描述，Java中的异常就是由java.lang包下的异常类描述的。  
-![20180507152570136268599.png](https://static.timelovelife.com/qiniu/20180507152570136268599.png)  
+![20180507152570136268599.png](https://static.codefog.com/qiniu/20180507152570136268599.png)  
 
 **1、Throwable（可抛出）：** 异常类的最终父类，它有两个子类，Error与Exception。   
 Throwable中常用方法有：   
@@ -258,7 +258,7 @@ Catch a my exception!
 注意到：异常对象一直被抛出，直至在printtry的mian()方法中被try-catch捕获！   
 
 **在补上一张异常类的继承图**  
-![20180507152570771437636.png](https://static.timelovelife.com/qiniu/20180507152570771437636.png)  
+![20180507152570771437636.png](https://static.codefog.com/qiniu/20180507152570771437636.png)  
 
 
 ## 参考

@@ -22,7 +22,7 @@ comments: true
 12. It is fail-stop. However, although it certainly strives to ensure delivery, log4j does not guarantee that each log statement will be delivered to its destination.
 
 ## Architecture
-![20180508152578887758452.png](https://static.timelovelife.com/qiniu/20180508152578887758452.png)  
+![20180508152578887758452.png](https://static.codefog.com/qiniu/20180508152578887758452.png)  
 Applications using the Log4j 2 API will **request a Logger with a specific name from the LogManager**. The LogManager will locate the appropriate LoggerContext and then obtain the Logger from it. If the Logger must be created it will be associated with the LoggerConfig that contains either a) the same name as the Logger, b) the name of a parent package, or c) the root LoggerConfig. LoggerConfig objects are created from Logger declarations in the configuration. The LoggerConfig is associated with the Appenders that actually deliver the LogEvents.    
 
 ## Configuration

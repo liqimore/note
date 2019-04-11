@@ -43,9 +43,9 @@ categories:
 
 下面我们看看一个二维码的样例：
 
-![二维码基本结构](https://static.timelovelife.com/qiniu/old/2017/07/jiegou.png)
+![二维码基本结构](https://static.codefog.com/qiniu/old/2017/07/jiegou.png)
 
-![英文图片](https://static.timelovelife.com/qiniu/old/2017/07/jiegou-eng.jpg)
+![英文图片](https://static.codefog.com/qiniu/old/2017/07/jiegou-eng.jpg)
 
 
 

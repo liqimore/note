@@ -16,25 +16,25 @@ tags:
 
 1.常引用
 
-![](https://static.timelovelife.com/qiniu/old/2017/07/4f144b67bc1348fc4cf627827ba549da.png)
+![](https://static.codefog.com/qiniu/old/2017/07/4f144b67bc1348fc4cf627827ba549da.png)
 
 2.常引用直接引用字面量的时候无法修改
 
-![](https://static.timelovelife.com/qiniu/old/2017/07/5d293bb2c95e28395612a275ffd90d9c.png)
+![](https://static.codefog.com/qiniu/old/2017/07/5d293bb2c95e28395612a275ffd90d9c.png)
 
 3.常引用的目的在于让某个变量拥有只读属性
 
-4.内联函数需求原因![](https://static.timelovelife.com/qiniu/old/2017/07/90440db38edc6756b9843fdb06c60459.png)
+4.内联函数需求原因![](https://static.codefog.com/qiniu/old/2017/07/90440db38edc6756b9843fdb06c60459.png)
 
 5.内敛函数定义方法
 
-![](https://static.timelovelife.com/qiniu/old/2017/07/675fdd6918184e1ad1f5487490265bb7.png)
+![](https://static.codefog.com/qiniu/old/2017/07/675fdd6918184e1ad1f5487490265bb7.png)
 
 内敛函数不经过入栈出栈
 
-![](https://static.timelovelife.com/qiniu/old/2017/07/f9d33375aa550c1d975b213206be7670.png)
+![](https://static.codefog.com/qiniu/old/2017/07/f9d33375aa550c1d975b213206be7670.png)
 
-![](https://static.timelovelife.com/qiniu/old/2017/07/e3f79e89487d317807cf2d162ba4828c.png)
+![](https://static.codefog.com/qiniu/old/2017/07/e3f79e89487d317807cf2d162ba4828c.png)
 
 
 
@@ -44,7 +44,7 @@ tags:
 
 
 
-![](https://static.timelovelife.com/qiniu/old/2017/07/ff18bbfbdc9587528d170e225337421f.png)
+![](https://static.codefog.com/qiniu/old/2017/07/ff18bbfbdc9587528d170e225337421f.png)
 
 
 
@@ -54,7 +54,7 @@ tags:
 
 
 
-![](https://static.timelovelife.com/qiniu/old/2017/07/39e92f5b13c773d234d08264995e222e.png)
+![](https://static.codefog.com/qiniu/old/2017/07/39e92f5b13c773d234d08264995e222e.png)
 
 封装也就是说把类中的成员(属性)封装到函数中进行修改设置变更等操作
 
@@ -66,7 +66,7 @@ tags:
 
 
 
-![](https://static.timelovelife.com/qiniu/old/2017/07/48659f88444bcefc73a04eab6c7b5125.png)
+![](https://static.codefog.com/qiniu/old/2017/07/48659f88444bcefc73a04eab6c7b5125.png)
 
 
 
@@ -76,7 +76,7 @@ tags:
 
 
 
-![](https://static.timelovelife.com/qiniu/old/2017/07/1c787bb9d717462714bd4fbb5b8f6da3.png)
+![](https://static.codefog.com/qiniu/old/2017/07/1c787bb9d717462714bd4fbb5b8f6da3.png)
 
 
 
@@ -86,4 +86,4 @@ tags:
 
 
 
-![](https://static.timelovelife.com/qiniu/old/2017/07/6788f697262c18d03f0fdb414a3dfeec.png)
+![](https://static.codefog.com/qiniu/old/2017/07/6788f697262c18d03f0fdb414a3dfeec.png)
