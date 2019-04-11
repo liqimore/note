@@ -114,4 +114,4 @@ Windows Live Writer 1.0 (Beta)主要更新
 
 插入的图片在这里:
 
-[![576a608bde3ab](https://static.timelovelife.com/old/2017/07/576a608bde3ab_thumb-1.jpg)](https://static.timelovelife.com/old/2017/07/576a608bde3ab-1.jpg)
+[![576a608bde3ab](https://static.timelovelife.com/qiniu/old/2017/07/576a608bde3ab_thumb-1.jpg)](https://static.timelovelife.com/qiniu/old/2017/07/576a608bde3ab-1.jpg)

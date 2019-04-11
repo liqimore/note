@@ -11,6 +11,6 @@ categories:
 - tensorflow
 ---
 
-![out-bad](https://static.timelovelife.com/old/2017/05/out-bad.jpg)
+![out-bad](https://static.timelovelife.com/qiniu/old/2017/05/out-bad.jpg)
 
 利用TensorFlow实现高识别率的车牌识别系统

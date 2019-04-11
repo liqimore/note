@@ -43,11 +43,11 @@ categories:
 
 下图是memcached的探针,由于刚安装不就,所以miss的还是有些多,但是可以看到,提升效果很明显,mysql压力瞬间减少.
 
-![memcached](https://static.timelovelife.com/old/2016/10/memcached.jpg)
+![memcached](https://static.timelovelife.com/qiniu/old/2016/10/memcached.jpg)
 
 下图是我的WP插件,装的不多不少,再加个友情链接的插件就基本上定型了.
 
-![plugin](https://static.timelovelife.com/old/2016/10/plugin.jpg)
+![plugin](https://static.timelovelife.com/qiniu/old/2016/10/plugin.jpg)
 
 
 ## 四.关闭https,换成http

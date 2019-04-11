@@ -9,7 +9,7 @@ comments: true
 
 ## 基本类型的封装类
 所有的基本类型，都有对应的类类型,比如int对应的类是Integer,这种类就叫做封装类.   
-![20180507152562630687372.png](https://static.timelovelife.com/20180507152562630687372.png)  
+![20180507152562630687372.png](https://static.timelovelife.com/qiniu/20180507152562630687372.png)  
 
 **基本类型和封装类的转化**  
 ```java
@@ -185,7 +185,7 @@ public static void main(String[] args) {
 输出结果：  
 2017年05月29日 星期一 20时25分31秒   
 上述的代码中，字符串yyyy年MM月dd日 E HH时mm分ss秒就是一个模板pattern，其中：   
-![20180507152569819984583.png](https://static.timelovelife.com/20180507152569819984583.png)  
+![20180507152569819984583.png](https://static.timelovelife.com/qiniu/20180507152569819984583.png)  
 更多的参考信息可以查看JDK API文档,下面给出一个综合实例:  
 ```java
 import java.util.Date;
@@ -333,7 +333,7 @@ public static void main(String[] args){
 }
 ```
 结果如下:  
-![20180507152569930577383.png](https://static.timelovelife.com/20180507152569930577383.png)  
+![20180507152569930577383.png](https://static.timelovelife.com/qiniu/20180507152569930577383.png)  
 上述代码运行在不同的时候的结果都是不一样的，写作时的时间：2017/5/29 14:02。需要注意一点的是，month属性是从0开始的，也就是0表示一月，4表示5月，星期也是一样。此外，上述中的AM_PM表示的是上下午的概念，上午为0，下午为1。  
 
 **开源第三方库Joda-Time**  
