@@ -17,7 +17,7 @@ categories:
 
 
 
-## [![Coder-PNG-File](https://static.timelovelife.com/old/2017/09/Coder-PNG-File-1024x807.png)](https://static.timelovelife.com/old/2017/09/Coder-PNG-File.png)
+## [![Coder-PNG-File](https://static.timelovelife.com/qiniu/old/2017/09/Coder-PNG-File-1024x807.png)](https://static.timelovelife.com/qiniu/old/2017/09/Coder-PNG-File.png)
 
 
 

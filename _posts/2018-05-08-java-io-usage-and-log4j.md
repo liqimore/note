@@ -8,7 +8,7 @@ comments: true
 ---
 
 ## IO流的继承关系图
-![2018050815257097325659.png](https://static.timelovelife.com/2018050815257097325659.png)  
+![2018050815257097325659.png](https://static.timelovelife.com/qiniu/2018050815257097325659.png)  
 
 ## 字节流(Byte Streams)
 字节流处理原始的二进制数据 I/O。输入输出的是8位字节，相关的类为 InputStream 和 OutputStream.  
@@ -48,7 +48,7 @@ public class CopyBytes {
 ```
 
 CopyBytes 花费其大部分时间在简单的循环里面，从输入流每次读取一个字节到输出流，如图所示：  
-![20180508152571169245832.png](https://static.timelovelife.com/20180508152571169245832.png)  
+![20180508152571169245832.png](https://static.timelovelife.com/qiniu/20180508152571169245832.png)  
 
 ### 记得始终关闭流
 不再需要一个流记得要关闭它，这点很重要。所以，CopyBytes 使用 finally 块来保证即使发生错误两个流还是能被关闭。这种做法有助于避免严重的资源泄漏。  
@@ -321,7 +321,7 @@ public class Format {
 ```
 输出为：3.141593, +00000003.1415926536    
 附加元素都是可选的。下图显示了长格式符是如何分解成元素  
-![20180508152575619695688.png](https://static.timelovelife.com/20180508152575619695688.png)  
+![20180508152575619695688.png](https://static.timelovelife.com/qiniu/20180508152575619695688.png)  
 
 元件必须出现在显示的顺序。从合适的工作，可选的元素是：(摘抄博主原文,可能是用翻译直接翻过来的,不通顺)    
 
